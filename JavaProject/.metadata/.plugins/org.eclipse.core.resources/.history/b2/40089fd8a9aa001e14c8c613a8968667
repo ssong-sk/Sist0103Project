@@ -1,0 +1,29 @@
+package day0104;
+
+public class QuizDataTyoe_10 {
+
+	public static void main(String[] args) {
+		// 변수는 args를 이용할것
+		/*
+		 * 학생명 : 김선호 님
+		 * 지역 : 부산
+		 * 나이 : 23 세
+		 * 
+		 * ===================================================
+		 * 김선호님의 자바 점수는 88점 오라클 점수는 77점 총 165점 입니다.
+		 */
+		
+		
+		String x = args[0];
+		String y = args[1];
+		String z = args[2];
+		
+		System.out.printf("학생명 : %s 님\n 지역 : %s\n 나이 : %s");
+		System.out.println();
+		System.out.println("====================================");
+		
+		
+
+	}
+
+}
