@@ -33,7 +33,7 @@ public class QuizKeyBoardIn_17 {
 		
 		System.out.print("상품명을 입력하세요 ==? ");
 		x = scanner.nextLine();
-		System.out.print("가격은 얼마입니까 ==? "); //그다음 출력문도 int 이기 떄문에 형변환 안해도됨.
+		System.out.print("가격은 얼마입니까 ==? ");
 		y = scanner.nextInt();
 		System.out.print("수량은 몇개입니까 ==? ");
 		z = scanner.nextInt();
