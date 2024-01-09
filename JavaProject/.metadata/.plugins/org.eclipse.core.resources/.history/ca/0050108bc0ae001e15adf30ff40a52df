@@ -1,0 +1,21 @@
+package day0109;
+
+public class QuizInOutRank_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String [] name = {"보라돌이", "뚜비", "나나", "뽀"};
+		int [] kor = {90, 88, 100, 78};
+		int [] eng = {100, 55, 100, 87};
+		int [] mat = {44, 55, 100, 66};
+		int [] tot = new int[4];
+		double [] avg = new double[4];
+		int [] rank = new int[4];
+		
+		
+		
+
+	}
+
+}

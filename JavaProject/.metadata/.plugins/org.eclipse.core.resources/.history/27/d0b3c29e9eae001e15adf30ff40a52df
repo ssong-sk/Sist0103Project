@@ -1,0 +1,21 @@
+package day0109;
+
+public class StringEx_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("String 객체에 대한 멤버 메서드 익혀보기");
+		
+		String str1 = "apple"; //0~4까지 글자 갯수는 5개
+		String str2 = "Apple";
+		String str3 = "Have a Nice Day"; //공백도 글자 갯수 포함
+		String str4 = "       Today now       ";
+		
+		System.out.println("str3의 길이 : " + str3.length()); //length() 괄호입력해줘야함. / 글자갯수 나타내는 공식 
+		System.out.println("str4의 길이 : " + str4.length()); //공백도 길이로 인식.
+		System.out.println("앞 뒤 공백 제거 후 str4의 길이 : " + str4.trim().length());//공백을 잘못입력했을 때 공백 제거하려면 trim 사용
+	                       //글자 사이의 공백은 제거가 되지 않고 앞 뒤 공백만 제거가 됨.
+	}
+
+}

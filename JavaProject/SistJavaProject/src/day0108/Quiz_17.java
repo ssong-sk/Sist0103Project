@@ -46,7 +46,7 @@ public class Quiz_17 {
 				z += 1;
 			}else {
 				System.out.println("시스템 종료");
-				break;
+				break; //while문은 break를 걸어줘야 계속 반복되는걸 방지
 			}
 
 		}System.out.println("양의 갯수 : " + y);

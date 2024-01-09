@@ -1,0 +1,16 @@
+package day0109;
+
+import java.util.Random;
+
+public class RandomClass_05 {
+
+	public static void main(String[] args) {
+		// 2번째 방법 random이라는 클래스를 이용
+		
+		Random r = new Random(); //import해주고 랜덤을 생성해서 사용해야함. -> 랜덤에 있는 메서드를 활용하기 위해서 사용
+		
+		System.out.println("1");
+
+	}
+
+}

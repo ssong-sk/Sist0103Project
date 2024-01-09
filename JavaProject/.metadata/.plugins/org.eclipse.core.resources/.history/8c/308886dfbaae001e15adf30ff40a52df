@@ -1,0 +1,50 @@
+package day0109;
+
+import java.util.Scanner;
+
+public class QiuzTest_15 {
+
+	public static void main(String[] args) {
+		// 학생명과 점수를 입력 _ 몇명인지는 입력해 주는 만큼
+		// 입력해 준 데이터로 출력을 하고 합계 구하기
+
+
+		//배열 변수 선언
+		int inwon; //인원
+		String [] name; //학생명
+		int [] score; //점수
+
+		int tot = 0; //총점
+		double avg = 0; //평균
+
+		//출력 입력
+		Scanner in = new Scanner(System.in);
+
+		System.out.println("인원수를 입력하시오");
+		inwon = Integer.parseInt(in.nextLine()); //다음은 String 입력이므로 형 변형
+
+
+		//인원수만큼 배열로 할당
+		name = new String[inwon]; //인원수에 맞게 할당됨
+		score = new int[inwon];
+
+		//인원수 만큼 데이터를 입력
+		for(int i = 0; i < inwon; i++) { //길이는 inwon에 할당되어 있으므로 length는 쓰지 않음
+			System.out.println(i + "번지 이름");
+			name[i] = in.nextLine();
+			System.out.println(i + "번지 점수");
+			score[i] = Integer.parseInt(in.nextLine()); //형변환
+			
+			tot += score[i];
+
+		}
+
+		//계산
+
+
+		//출력
+
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package day0109;
+
+public class QiuzTest_15 {
+
+	public static void main(String[] args) {
+		// 학생명과 점수를 입력 _ 몇명인지는 입력해 주는 만큼
+		// 입력해 준 데이터로 출력을 하고 합계 구하기
+		
+		int score[];
+	}
+
+}

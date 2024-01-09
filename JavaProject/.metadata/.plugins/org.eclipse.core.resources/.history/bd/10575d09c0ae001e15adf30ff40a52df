@@ -1,0 +1,13 @@
+package day0109;
+
+public class QuizInOutRank_16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Stirng [] name = {"보라돌이", "뚜비", "나나", "뽀"};
+		
+
+	}
+
+}

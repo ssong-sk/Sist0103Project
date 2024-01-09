@@ -1,0 +1,13 @@
+package day0109;
+
+public class ArrMaxNum_13 {
+
+	public static void main(String[] args) {
+		
+		int []data = {4, 44, 144, 3, 33, 133, 55, 5, 100}; //int값에 대한 배열
+		
+		System.out.println("갯수 : " + data.length);
+
+	}
+
+}
