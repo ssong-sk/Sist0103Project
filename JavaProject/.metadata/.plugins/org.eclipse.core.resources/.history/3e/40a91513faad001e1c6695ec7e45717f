@@ -1,0 +1,28 @@
+package day0108;
+
+public class Quiz_17 {
+
+	public static void main(String[] args) {
+
+
+	}
+	
+
+	public static void quiz_1() {
+
+		//Q. 반복해서 숫자를 입력하여 
+		
+	}
+
+
+
+	public static void quiz_2() {
+
+	}
+
+
+
+	public static void quiz_3() {
+
+	}
+}

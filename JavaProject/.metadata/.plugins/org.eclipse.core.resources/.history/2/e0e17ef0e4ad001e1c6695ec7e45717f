@@ -1,0 +1,21 @@
+package day0108;
+
+public class QuizFor_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println("1. 1 2 3 4 5 7 8 10 (continue 활용)");
+		
+		for(int x = 1; x <= 10; x++){
+			if(x % 3 != 0);
+			
+			continue;
+			System.out.println(x +  " ");
+		}
+		
+		
+	}
+
+}

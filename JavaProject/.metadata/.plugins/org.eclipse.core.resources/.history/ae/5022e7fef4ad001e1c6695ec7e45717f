@@ -1,0 +1,36 @@
+package day0108;
+
+public class QuizeForWhile_15 {
+
+	public static void main(String[] args) {
+		// 다른 메서드에 출력을 해도 메인 메서드에 출력이 없으면 출력이 안됨/ 출력은 메인 메서드에서만 가능 
+
+
+	
+
+
+
+
+	}
+
+
+	public static void test1() {
+		
+		//문제 : 1~100까지의 3의 배수 구하기
+		
+		
+		
+
+
+	}
+
+	public static void test2() {
+
+
+	}
+
+	public static void test3() {
+
+
+	}
+}
