@@ -1,0 +1,14 @@
+package day0110;
+
+public class ObjectEx_07 {
+	
+	String name; //멤버변수 / 인스턴스변수 (앞에 static이라는 변수가 없으면 인스턴스변수) 
+	             //static은 무조건 써줘야함.
+	static String MESSAGE = "Happy day"; //MESSAGE는 대문자로 쓴 경우 상수라고 하면 됨. static 멤버변수 또는 클래스 멤버변수
+                                         //final을 쓰면 상수는 아예 수정이 안됨.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

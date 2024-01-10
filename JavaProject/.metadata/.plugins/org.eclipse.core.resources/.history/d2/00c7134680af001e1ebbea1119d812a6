@@ -1,0 +1,54 @@
+package day0110;
+
+class Ipgo {
+	private String sangName;
+	private int Price;
+
+	// 사과,2500 / 오렌지 4400
+
+	// set메서드
+
+	public void setName(String sangName) {
+		this.sangName = sangName;
+
+	}
+
+	public void setPrice(int Price) {
+		this.Price = Price;
+
+	}
+
+	// get메서드
+
+	public String getName() {
+		return sangName;
+	}
+
+	public int getPrice() {
+		return Price;
+	}
+}
+
+public class SangpumIpgo_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Ipgo tot1 = new Ipgo();
+		// setter 메서드를 이용해서 값 수정
+		tot1.setName("사과");
+		tot1.setPrice(2500);
+		
+		Ipgo tot2 = new Ipgo();
+		tot2.setName("오렌지");
+		tot2.setPrice(4400);
+
+		// getter 메서드를 이용해서 값 얻기
+		String name = tot1.getName(); // 스트링 변수를 줘서 만들 수있음
+		int price = tot1.getPrice();
+
+		System.out.println(name + ", " + age); // setter메서드의 값을 불러와서 getter메서드로 출력
+
+	}
+
+}

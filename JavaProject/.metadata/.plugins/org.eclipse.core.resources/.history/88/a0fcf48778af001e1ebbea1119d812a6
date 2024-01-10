@@ -1,0 +1,11 @@
+package day0110;
+
+public class ConstNum_11 { //처음 지정한 클래스명은 public을 지우고 다른 클래스를 만들 수 없음
+	                       //public은 클래스 1곳에서만 사용가능(맨 처음 만든 클래스에)
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

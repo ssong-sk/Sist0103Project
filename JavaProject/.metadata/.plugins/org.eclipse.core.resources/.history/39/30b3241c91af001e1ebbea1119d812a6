@@ -1,0 +1,23 @@
+package day0110;
+
+class Car {
+
+	//필드 선언
+	String model;
+	int speed;
+	
+	//성성자 선언
+	Car(String model) {
+		this.model = model;
+	}
+	
+	
+}
+public class Book243_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

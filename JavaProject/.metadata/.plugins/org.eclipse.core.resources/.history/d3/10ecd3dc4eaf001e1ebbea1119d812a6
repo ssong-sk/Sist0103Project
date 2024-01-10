@@ -1,0 +1,11 @@
+package day0110;
+
+public class ArraySearchNum_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] data = { //[]앞에 써도 되고 뒤에 써도 가능함 //초깃값을 입력할때는 {} 사용
+	}
+
+}

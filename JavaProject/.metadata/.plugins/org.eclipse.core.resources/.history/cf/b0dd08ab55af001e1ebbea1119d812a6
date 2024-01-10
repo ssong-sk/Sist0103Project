@@ -1,0 +1,19 @@
+package day0110;
+
+public class ArrayChange_03 {
+
+	public static void main(String[] args) {
+		// 순서바꾸기 연습
+		
+		int a = 10, b = 20;
+		System.out.println("a = " + a + ", b = " + b);
+		
+		int temp = a; //a를 temp에 대입
+		a = b;
+		b = temp; //빗그릇을 통해서 a와 b가 바뀜 -> temp사용하면
+		System.out.println("a = " + a + ", b = " + b);
+		
+
+	}
+
+}

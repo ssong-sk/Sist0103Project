@@ -1,0 +1,23 @@
+package day0110;
+
+public class StudentMain_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student stu1 = new Student(); //생성자
+		Student stu2 = new Student(); //생성자
+		Student stu3 = new Student(); //생성자
+		
+		stu1.stuName = "이효리";
+		stu1.stuAge = 22;
+		
+		stu1.stuName = "이상순";
+		stu1.stuAge = 30;
+		
+		Student.schoolName = "쌍용고등학교";
+		
+		
+	}
+
+}

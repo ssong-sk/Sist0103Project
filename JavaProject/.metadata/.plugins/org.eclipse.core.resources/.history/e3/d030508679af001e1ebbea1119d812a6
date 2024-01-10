@@ -1,0 +1,39 @@
+package day0110;
+
+import java.security.PublicKey;
+
+class Numb {
+
+	int num; // 0
+
+	// 디폴트 생성자
+	public Numb() { // 디폴트 생성자는 필요하면 만들어줘야함.
+		System.out.println("디폴트 생성자 호출");
+		
+	}
+
+	// 인자있는 생성자 만들기(변수타입 매개변수)
+	public Numb(int num) {
+		this.num = num; // 인스턴스 자기자신을 의미하는 레퍼런스변수인 this (나자신)
+		System.out.println("인자있는 생성자 호출");
+
+		//메서드
+		public int getNumber() {
+			
+		}
+	}
+}
+
+public class ConstNum_11 { // 처음 지정한 클래스명은 public을 지우고 다른 클래스를 만들 수 없음
+							// public은 클래스 1곳에서만 사용가능(맨 처음 만든 클래스에)
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Numb n1 = new Numb();
+		
+		Numb n2 = new Numb(30);
+		System.out.println(n2.num);
+	}
+
+}

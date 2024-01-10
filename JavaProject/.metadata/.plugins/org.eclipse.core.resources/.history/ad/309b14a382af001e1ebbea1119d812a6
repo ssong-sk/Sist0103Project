@@ -1,0 +1,37 @@
+package day0110;
+
+class MyDate {
+	
+	private int year;
+	private int month;
+	private int day;
+	
+	//디폴트 생성자가 숨겨져있음
+	
+	//setter
+	
+	public void setYear(int y) {
+		this.year = y;
+	}
+	
+	public void setMonth(int m) {
+		this.Month = m;
+	}
+	
+	public void setYear(int y) {
+		this.year = y;
+	}
+	
+	
+	//getter
+	
+}
+
+public class MyDate_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
