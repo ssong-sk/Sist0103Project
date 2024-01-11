@@ -1,0 +1,28 @@
+package day0111;
+/*
+ * emp
+ * 모든 멤버는 private
+ * sName -사원명
+ * gPay - 기본급
+ * fSu - 자녀수
+ * tSu - 초과근무시간
+ * [직원 1월 급여]
+ * 사원명 기본급 자녀수 초과근무시간 가족수당 시간수당 총급여
+ * --------------------------------------------
+ */
+
+class Emp {
+	
+	private 
+
+
+}
+
+public class SawonInstenceScanner_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

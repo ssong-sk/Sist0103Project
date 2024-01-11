@@ -1,0 +1,20 @@
+package day0111;
+
+class MyInfo {
+	
+	private String name;
+	private String type;
+	private int age;
+	
+	
+	public MyInfo
+	
+}
+public class QuizArrObTest_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package day0111;
+
+class MyInfo {
+	
+	private String name;
+	private String type;
+	private int age;
+	
+	
+	public MyInfo (String n, String t, int a) {
+		this.name = n;
+		this.type = t;
+		this.age = a;
+	}
+	
+	public static void Tile {
+		System.out.println("이름\tMBTI\t나이");
+		System.out.println("==========================");
+	}
+	
+}
+public class QuizArrObTest_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

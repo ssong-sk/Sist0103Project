@@ -1,0 +1,69 @@
+package day0111;
+/*
+ * 회사이름 쌍용
+ * 총사원수 입력 2
+ * 사원명 손흥민
+ * 월급여 250000
+ * 월수당 500000
+ * 
+ * [쌍용 _ 1월 급여내역]
+ * 사원명   기본급   수당    실수령액(10%세금 떼서 계산하기) 
+ * ============================================
+ * 손흥민 2500000 500000 27000000
+ * 황희찬 1500000 500000 18000000
+ */
+
+class Sawon {
+
+	//변수 설정
+	private String name;
+	private int pay;
+	private int tot;
+	
+	//getter setter
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPay() {
+		return pay;
+	}
+	public void setPay(int pay) {
+		this.pay = pay;
+	}
+	public int getTot() {
+		return tot;
+	}
+	public void setTot(int tot) {
+		this.tot = tot;
+	}
+	
+	//실수령액 계산
+	public int getTotal( ) {
+		int n = 0;
+		
+		n = (pay + tot) / 9;
+		
+		return n;
+	}
+	
+	//제목출력
+	public static void totTitle() {
+		System.out.println("**[쌍용 _ 1월 급여내역]**");
+		System.out.println();
+		System.out.println("사원명\t기본급\t수당\t실수령액");
+		System.out.println("===========================================");
+	}
+	
+	
+	
+}
+public class QuizSawon_15 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

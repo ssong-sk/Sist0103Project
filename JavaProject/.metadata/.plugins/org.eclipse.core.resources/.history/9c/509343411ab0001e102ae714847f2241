@@ -1,0 +1,44 @@
+package day0111;
+
+class Apple {
+	public Apple() {
+		System.out.println("Apple__디폴트 생성자");
+
+	}
+
+}
+
+class Banana {
+
+	public Banana(String str) {
+		System.out.println("생성자 호출 : " + str);
+	}
+
+}
+
+class Orange {
+
+	// 생성자 오버로딩 (생성자, 메서드명이 같게 생성 / 인자값은 달라야 오류가 발생하지 않음)
+	public Orange() {
+		System.out.println("Orange의 디폴트 생성자 호출");
+
+	}
+
+	public Orange(String str) {
+		System.out.println("Orange의 2번쨰 생성자 : " + str);
+
+	}
+
+	public Orange(int n) {
+		System.out.println("Orange의 3번쨰 생성자 : " + n);
+
+	}
+}
+
+public class ConstTest_02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

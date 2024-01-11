@@ -1,0 +1,24 @@
+package day0111;
+
+class Mycar1 {
+	String carName;
+	int carPrice;
+	String carColor;
+}
+
+
+public class CallByReference_12 {
+
+	public static void dataIn(Mycar1 car1) {
+		car1.carName = "미니쿠퍼";
+		car1.carPrice = 420000;
+		car1.carColor = "진주색";
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

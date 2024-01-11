@@ -1,0 +1,27 @@
+package day0111;
+
+class Apple {
+	private void syso() {
+		System.out.println("Apple__디폴트 생성자");
+
+	}
+	
+}
+/////////////////////////////////////////////////////////
+class Banana {
+	
+	
+}
+
+////////////////////////////////////////////////////////
+class Orange{
+	
+}
+////////////////////////////////////////////////////////
+public class ConstTest_02 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

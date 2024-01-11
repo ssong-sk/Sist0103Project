@@ -1,0 +1,23 @@
+package day0111;
+
+
+class Artist {
+	
+	//변수명
+	private String name;
+	private String grup;
+	private String song;
+	
+	
+	//명시적 생성자
+	public void setArtist
+	
+}
+public class QuizInstance_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

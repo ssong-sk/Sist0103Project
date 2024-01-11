@@ -1,0 +1,22 @@
+package day0111;
+
+class Mycar1 {
+	String carName;
+	int carPrice;
+	String corcolor;
+}
+
+
+public class CallByReference_12 {
+
+	public static void dataIn(Mycar1) {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
