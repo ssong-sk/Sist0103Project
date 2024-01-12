@@ -1,0 +1,29 @@
+package day0112;
+
+class QuizMain {
+	
+	private int Java;
+	private int Oracle;
+	private int Html;
+	private int sum;
+	
+	
+	
+	
+}
+
+///////////////////
+
+class Quiz {
+	
+}
+
+
+public class QuizMain_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

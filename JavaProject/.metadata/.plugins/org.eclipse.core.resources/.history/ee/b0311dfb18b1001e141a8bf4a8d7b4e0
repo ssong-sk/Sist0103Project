@@ -1,0 +1,56 @@
+package day0112;
+
+//추상클래스 이자 부모클래스 형성
+abstract class Board {
+	
+	public abstract void play();
+	
+}
+///////////////////
+
+class Insert extends Board{
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+////////////////////
+
+class Select extends Board{
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+////////////////////
+class Updata extends Board{
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+////////////////////
+class Delete extends Board{
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+/////////////////////
+
+public class Abstrack_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

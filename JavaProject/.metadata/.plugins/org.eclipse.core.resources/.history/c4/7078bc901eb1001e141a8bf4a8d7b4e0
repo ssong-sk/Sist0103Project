@@ -1,0 +1,36 @@
+package day0112;
+
+interface InterA {
+	
+	public void sigasong();
+	public void draw();
+	
+	
+}
+//////////////////////////
+
+interface InterB {
+	public void playgame();
+	public void write();
+	
+}
+/////////////////////
+class Imple{
+	
+	public void sigasong() {
+		sigasong();
+	}
+	
+	
+}
+
+
+//////////////////////////
+public class InterImpl_14 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package day0112;
+
+
+class Shop {
+	
+	private int number;
+	private String reName;
+	private int won;
+	private int color;
+	
+	
+	public Shop (int nu, String re, int wo, int co) {
+		this.number = nu;
+		this.reName = re;
+		this.won = wo;
+		this.color = co;
+		
+	}
+	
+	
+	
+}
+
+
+//
+public class ArrReview_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

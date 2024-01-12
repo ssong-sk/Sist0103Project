@@ -1,0 +1,26 @@
+package day0112;
+/*인터페이스는 상수 또는 추상메서에서만 사용가능
+ * 클래스가 인터페이스를 구현해서 가져올떄는 implement 또 임플리먼트는 상속을 받아서 사용
+ * 클래스가 인터페이스를 구현하지만, 인터페이스가 인터페이스를 상속해서 사용하지 않음 (extends)
+ * 클래스가 인터페이스를 가져오면 다중 구현이 가능함.
+ * 
+ */
+
+//interface는 상수와 추상 메서드만 가질 수 있다.
+
+interface FoodShop {
+
+	String SHOPNAME = "남소관"; //인터페이스에서 상수는 당연하게 생각하기 떄문에 파이널을 안넣어도 됨.
+}
+
+/////////////////////
+
+
+public class Implement_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

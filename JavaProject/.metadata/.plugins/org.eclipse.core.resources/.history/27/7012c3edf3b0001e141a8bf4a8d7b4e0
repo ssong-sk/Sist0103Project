@@ -1,0 +1,31 @@
+package day0112;
+
+class Emart {
+	
+	private String sangpum;
+	private int su;
+	
+	
+	//명시적
+	public Emart() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Emart(String sangpum, int su) {
+		// TODO Auto-generated constructor stub
+	}
+	
+}
+
+class kangnamEmart {
+
+}
+
+public class Inheri_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

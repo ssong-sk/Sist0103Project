@@ -1,0 +1,13 @@
+package day0112;
+
+public class MainOb_03 {
+
+	public static void main(String[] args) {
+		// 부모보다 자식이 더커짐. 생성을 하려고 한다면 자식을 생성해서 사용해야한다.
+		
+		SubOb_03 sub = new SubOb_03("김선호", 22, "강남구");
+		sub.writeData(); //자식 클래스에 있는 명시적 생성자를 불러와서 출력함.
+
+	}
+
+}

@@ -47,7 +47,7 @@ class Sawon {
 	public int getTotal( ) {
 		int n = 0;
 		
-		n = (pay + tot) / (10 * 9);
+		n = (pay + tot) * (10 * 9);
 		
 		return n;
 	}

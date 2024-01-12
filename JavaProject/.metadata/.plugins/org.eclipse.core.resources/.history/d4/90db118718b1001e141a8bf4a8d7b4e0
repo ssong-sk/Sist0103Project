@@ -1,0 +1,15 @@
+package day0112;
+
+class Board {
+	public abstract void play();
+}
+
+
+public class Abstrack_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

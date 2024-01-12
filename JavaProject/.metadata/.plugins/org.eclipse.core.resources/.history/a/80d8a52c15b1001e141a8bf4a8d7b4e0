@@ -1,0 +1,26 @@
+package day0112;
+//abstract를 추상클래스라고 함
+//추상클래스는 new로 생성 못함.
+//abstract메서드는 abstract 클래스에서만 존재할 수 있다.
+//abstract 클래스는 일반메서드 추상메서드 둘 다 포함이 가능하다.
+
+class Fruit {
+	
+	public static final String MRSSAGE = "오늘은 추상클래스 배우는날~~~~"
+			
+			//일반메서드
+			public void showTilte() {
+		System.out.println("일반메서드 입니다.");
+	}
+	
+	public void showMessage();
+}
+
+public class Abstract_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

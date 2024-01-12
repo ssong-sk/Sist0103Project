@@ -1,0 +1,36 @@
+package day0112;
+
+class Food {
+	
+	private String foodName; //이름
+	private int fPrice; //가격
+	
+	static int no;
+	
+	//명시적 생성자(2개)
+	public Food(String fo, int fp) {
+		this.foodName = fo;
+		this.fPrice = fp;
+	}
+	
+	//출력문
+	
+	public void foodData() {
+		System.out.println();
+	}
+	
+	
+	
+	
+	
+	
+}
+
+public class ArrReview_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

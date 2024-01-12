@@ -1,0 +1,36 @@
+package day0112;
+
+class Emart {
+	
+	private String sangpum;
+	private int su;
+	
+	
+	//명시적
+	public Emart() {
+		//sangpum = "딸기";
+		//su = 10;
+		
+		this("딸기",10); //초기화 호출해서 넣어주는 방법
+	}
+	
+	public Emart(String sangpum, int su) {
+		this.sangpum = sangpum;
+		this.su = su;
+				
+	}
+	
+}
+
+class kangnamEmart {
+
+}
+
+public class Inheri_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

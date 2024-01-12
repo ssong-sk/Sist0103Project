@@ -1,0 +1,14 @@
+package day0112;
+
+public class SubOb_03 extends SuperOb_03{ //extends 입력후 부모 클래스 명칭 가져오기.
+	
+	
+	String addr;
+	public SubOb_03(String name, int age, String addr) {
+		super(name, age);
+		// 부모 생성을 호출해서 반드시 가져와서 사용해야한다. super 디폴트 값이 숨겨져 있음.
+	}
+
+	
+
+}

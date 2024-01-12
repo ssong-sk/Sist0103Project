@@ -1,0 +1,43 @@
+package day0112;
+
+
+class Shop {
+	
+	private int number;
+	private String reName;
+	private int won;
+	private int color;
+	
+	
+	public Shop (int nu, String re, int wo, int co) {
+		this.number = nu;
+		this.reName = re;
+		this.won = wo;
+		this.color = co;
+		
+	}
+	
+	public void getShop( ) {
+		System.out.println("번호\t상품명\t가격\t색상");
+		System.out.println("===========================");
+		System.out.println(number + "\t" + reName + "\t" + won + "\t" + color);
+	}
+	
+}
+
+
+//
+public class ArrReview_02 {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	
+	
+
+}

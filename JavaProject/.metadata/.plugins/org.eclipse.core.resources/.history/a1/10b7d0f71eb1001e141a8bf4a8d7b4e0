@@ -1,0 +1,57 @@
+package day0112;
+
+interface InterA {
+	
+	public void sigasong();
+	public void draw();
+	
+	
+}
+//////////////////////////
+
+interface InterB {
+	public void playgame();
+	public void write();
+	
+}
+/////////////////////
+class Implei implements InterA, InterB{
+
+	@Override
+	public void playgame() {
+		// TODO Auto-generated method stub
+		System.out.println();
+	}
+
+	@Override
+	public void write() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void sigasong() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}
+
+
+//////////////////////////
+public class InterImpl_14 {
+
+	public static void main(String[] args) {
+		// 다형성으로 출력하기.
+
+	}
+
+}

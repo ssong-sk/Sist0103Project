@@ -1,0 +1,18 @@
+package day0112;
+
+class Emart {
+
+}
+
+class kangnamEmart {
+
+}
+
+public class Inheri_06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
