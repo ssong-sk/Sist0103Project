@@ -21,6 +21,9 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\user\Desktop\a.zip"/>
+			<item value="C:\Users\user\Desktop\aaa.zip"/>
+			<item value="C:\Users\user\Desktop\aa.zip"/>
 			<item value="C:\Users\user\Desktop\song.zip"/>
 			<item value="C:\Users\user\Desktop\seung.zip"/>
 		</list>
